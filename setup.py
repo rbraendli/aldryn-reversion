@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 from aldryn_reversion import __version__
 
 REQUIREMENTS = [
-    'Django>=1.6,<1.11',
+    'Django>=1.6',
     'django-cms>=3.0.12',
-    'django-reversion>=1.8.2,<1.11',
+    'django-reversion>=1.8.2',
 ]
 
 CLASSIFIERS = [
